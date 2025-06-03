@@ -1,16 +1,23 @@
-# flutter_test_project
 
-A new Flutter project.
+# Test App
 
-## Getting Started
+A simple Flutter app that changes the background color to a random RGB value on tap. Includes smooth animation on the AppBar.
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- Tap anywhere to change the background color
+- Supports 16,777,216 colors (true RGB)
+- AppBar color animated with `ColorTween`
+- Fully responsive layout
+- Written in clean, idiomatic Dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🖼️ Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="296" alt="image" src="https://github.com/user-attachments/assets/d1cceb2c-2a2a-4839-a9d7-77eb807179e1" />
+
+
+```bash
+git clone https://github.com/Vladimir182/Flutter_Test_App.git
+cd flutter_test_project
+flutter pub get
+flutter run
